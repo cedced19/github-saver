@@ -1,0 +1,32 @@
+{
+  "name": "github-saver",
+  "version": "0.0.0",
+  "description": "A tool to download all your public repositories from Github.",
+  "main": "github-saver.js",
+  "bin": {
+    "github-saver": "./github-saver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/github-saver.git"
+  },
+  "keywords": [
+    "tool",
+    "github",
+    "save",
+    "repo",
+    "repositories",
+    "archive"
+  ],
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/github-saver/issues"
+  },
+  "homepage": "https://github.com/cedced19/github-saver#readme",
+  "dependencies": {
+    "download-git-repo": "^1.0.2",
+    "github-repositories": "^3.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}
